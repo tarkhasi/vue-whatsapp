@@ -1,4 +1,21 @@
 
 export default {
-  'AppName':'WhatsApp Bro!'
+  'AppName':'WhatsApp Bro!',
+  'SearchPlaceholder':'Search or start new chat',
+  'All':'All',
+  'Unread':'Unread',
+  'Favorites':'Favorites',
+  'Groups':'Groups',
+  'Labels':'Labels',
+  'Chats':'Chats',
+  'Status':'Status',
+  'Channels':'Channels',
+  'Communities':'Communities',
+  'Tools':'Tools',
+  'AdvertiseOnFacebook':'Advertise on Facebook',
+  'Settings':'Settings',
+  'Profile':'Profile',
+  'ChatsDefaultTitle':'WhatsApp Business on Web',
+  'ChatsDefaultSubtitle':'Grow, organise and manage your business account.',
+  'ChatsDefaultFooter':'Your personal messages are end-to-end encrypted',
 }

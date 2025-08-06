@@ -86,6 +86,9 @@ a {
 .rounded-20 {
     border-radius: 20px !important;
 }
+.rounded-12 {
+    border-radius: 12px !important;
+}
 
 .rounded-25 {
     border-radius: 25px !important;
@@ -146,4 +149,15 @@ a {
 .py-half {
     padding-top: 2px !important;
     padding-bottom: 2px !important;
+}
+.px-half {
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+}
+.pb-half {
+    padding-bottom: 2px !important;
+}
+
+.text-field-rounded .v-field{
+    border-radius: 50px !important;
 }

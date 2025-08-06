@@ -9,6 +9,14 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AppFooter: typeof import('./components/AppFooter.vue')['default']
+    ChatIList: typeof import('./components/chats/ChatIList.vue')['default']
+    ChatIsList: typeof import('./components/chats/ChatIsList.vue')['default']
+    ChatItem: typeof import('./components/chats/ChatItem.vue')['default']
+    ChatsDefault: typeof import('./components/chats/ChatsDefault.vue')['default']
+    ChatsIList: typeof import('./components/chats/ChatsIList.vue')['default']
+    ChatsItem: typeof import('./components/chats/ChatsItem.vue')['default']
+    ChatsList: typeof import('./components/chats/ChatsList.vue')['default']
+    ChatsNav: typeof import('./components/chats/ChatsNav.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     IconNewChat: typeof import('./components/icons/IconNewChat.vue')['default']
     Logo: typeof import('./components/app/Logo.vue')['default']

@@ -1,17 +1,14 @@
 const routes: any = [
     {
         path: '/',
-        redirect: {name: 'Panel'},
-        component: () => import('@/pages/index.vue'),
-    },
-    {
-        path: '/panel',
+        name: 'Panel',
+        redirect: {name: 'chats'},
         component: () => import('@/layouts/panel.vue'),
         children: [
             {
                 path: '',
-                name: 'Panel',
-                component: () => import('@/pages/panel/index.vue'),
+                name: 'Chats',
+                component: () => import('@/pages/chats/index.vue'),
             }
         ]
     }

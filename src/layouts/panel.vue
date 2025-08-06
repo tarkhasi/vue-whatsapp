@@ -69,88 +69,11 @@
     </template>
   </v-navigation-drawer>
 
-  <!-- Second Nav -->
-  <v-navigation-drawer width="511">
-    <!--  App Name  -->
-    <div class="py-half my-3 px-5 px-5 d-flex justify-space-between align-center">
-      <div style="margin-top: 1px">
-        <logo/>
-      </div>
-      <div class="d-flex">
-        <v-btn icon flat class="pa-2" width="auto" height="auto">
-          <icon-new-chat/>
-        </v-btn>
-        <v-sheet width="10"/>
-        <v-btn icon flat class="pa-2" width="auto" height="auto">
-          <v-icon>mdi-dots-vertical</v-icon>
-        </v-btn>
-      </div>
-    </div>
-
-    <!--  Search  -->
-    <div class="pb-1 px-5">
-      <v-text-field variant="magnify" flat hide-details density="compact" prepend-icon="mdi-search"/>
-    </div>
-
-    <v-sheet
-      color="grey-lighten-5"
-      height="128"
-      width="100%"
-    ></v-sheet>
-
-    <v-list>
-      <v-list-item
-        v-for="n in 5"
-        :key="n"
-        :title="`Item ${ n }`"
-        link
-      ></v-list-item>
-    </v-list>
-  </v-navigation-drawer>
-
-  <!-- App Bar -->
-  <v-app-bar
-    class="px-3"
-    color="grey-lighten-4"
-    height="72"
-    flat
-  >
-
-    <v-spacer></v-spacer>
-
-    <v-responsive max-width="156">
-      <v-text-field
-        bg-color="grey-lighten-1"
-        density="compact"
-        rounded="pill"
-        variant="solo-filled"
-        flat
-        hide-details
-      ></v-text-field>
-    </v-responsive>
-  </v-app-bar>
 
 
-  <!-- Main -->
-  <v-main>
-    <router-view/>
-  </v-main>
+  <!-- Route -->
+  <router-view/>
 
-
-  <v-footer
-    height="72"
-    app
-  >
-    <v-text-field
-      bg-color="grey-lighten-1"
-      class="overflow-hidden"
-      density="compact"
-      rounded="pill"
-      variant="solo-filled"
-      flat
-      hide-details
-    ></v-text-field>
-  </v-footer>
 </template>
 
 <script lang="ts" setup>

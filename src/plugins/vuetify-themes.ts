@@ -4,6 +4,7 @@ export default {
     colors: {
       'primary': '#14a800',
       'secondary': '#AA00FF', // #FFCDD2
+      'success': '#1DAA61', // #FFCDD2
       'contrast': '#212121',
       'background-white': '#ffffff',
       'background-blue-light': '#f8f9fa',

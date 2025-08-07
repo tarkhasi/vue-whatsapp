@@ -121,6 +121,9 @@ a {
 .border-light {
     border: solid 1px #999999 !important;
 }
+.border-light-2 {
+    border: solid 1px #d4d4d4 !important;
+}
 
 .pointer {
     cursor: pointer !important;

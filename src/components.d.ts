@@ -24,6 +24,7 @@ declare module 'vue' {
     IconChannels: typeof import('./components/icons/IconChannels.vue')['default']
     IconChats: typeof import('./components/icons/IconChats.vue')['default']
     IconCommunities: typeof import('./components/icons/IconCommunities.vue')['default']
+    IconMen: typeof import('./components/icons/IconMen.vue')['default']
     IconNewChat: typeof import('./components/icons/IconNewChat.vue')['default']
     IconStatus: typeof import('./components/icons/IconStatus.vue')['default']
     IconTools: typeof import('./components/icons/IconTools.vue')['default']
@@ -32,5 +33,7 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Status: typeof import('./components/status/Status.vue')['default']
+    Text: typeof import('./components/app/Text.vue')['default']
+    TextWithEmoji: typeof import('./components/app/TextWithEmoji.vue')['default']
   }
 }

@@ -40,24 +40,26 @@ import ChatsList from "@/components/chats/ChatsList.vue";
     </div>
 
     <!--  Categories  -->
-    <div class="d-flex px-5">
-      <v-chip variant="outlined">
+    <div class="d-flex px-5 py-2">
+      <v-chip variant="outlined" class="border-light font-size-15 mr-2 bg-grey-lighten-3">
         {{ $t('All') }}
       </v-chip>
-      <v-chip variant="outlined">
+      <v-chip variant="outlined" class="border-light font-size-15 text-grey-darken-1 mr-2">
         {{ $t('Unread') }}
       </v-chip>
-      <v-chip variant="outlined">
+      <v-chip variant="outlined" class="border-light font-size-15 text-grey-darken-1 mr-2">
         {{ $t('Favorites') }}
       </v-chip>
-      <v-chip variant="outlined">
+      <v-chip variant="outlined" class="border-light font-size-15 text-grey-darken-1 mr-2">
         {{ $t('Groups') }}
       </v-chip>
-      <v-chip variant="outlined">
+      <v-chip variant="outlined" class="border-light font-size-15 text-grey-darken-1 mr-2">
         {{ $t('Labels') }}
+        <v-icon size="24">mdi-chevron-down</v-icon>
       </v-chip>
     </div>
 
+    <!--  Chats List  -->
     <div class="px-half">
       <chats-list class="px-2"/>
     </div>

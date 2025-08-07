@@ -3,8 +3,9 @@ const chats:any = [
     id: '1',
     name: 'Me (You)',
     last_message: {
+      user_created: 'me',
       type: 'text',
-      text: 'چه زمانی می تونید صحبت کنید؟',
+      text: 'رزومه‌ بنده با بیش از ۱۰ سال سابقه حرفه ای خدمت تون ارسال شد.',
       seen: true,
     },
     sent_at: '12:36',
@@ -17,6 +18,7 @@ const chats:any = [
     id: '2',
     name: 'Mr Ghezeli',
     last_message: {
+      user_created: null,
       type: 'text',
       text: 'چه زمانی می تونید صحبت کنید؟',
       seen: true,

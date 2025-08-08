@@ -6,6 +6,7 @@ export default {
       'secondary': '#AA00FF', // #FFCDD2
       'success': '#1DAA61', // #FFCDD2
       'contrast': '#212121',
+      'contrast-dark': '#000000',
       'background-white': '#ffffff',
       'background-blue-light': '#f8f9fa',
       'background-light': '#f6f5f4',

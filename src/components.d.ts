@@ -8,7 +8,8 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    AppFooter: typeof import('./components/AppFooter.vue')['default']
+    AppFooter: typeof import('./components/app/AppFooter.vue')['default']
+    AppLogo: typeof import('./components/app/AppLogo.vue')['default']
     Channels: typeof import('./components/channels/Channels.vue')['default']
     ChannelsContent: typeof import('./components/channels/ChannelsContent.vue')['default']
     ChannelsItem: typeof import('./components/channels/ChannelsItem.vue')['default']
@@ -31,12 +32,17 @@ declare module 'vue' {
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     IconAd: typeof import('./components/icons/IconAd.vue')['default']
     IconAD: typeof import('./components/icons/IconAD.vue')['default']
+    IconCatalog: typeof import('./components/icons/IconCatalog.vue')['default']
     IconChannels: typeof import('./components/icons/IconChannels.vue')['default']
     IconChats: typeof import('./components/icons/IconChats.vue')['default']
     IconCommunities: typeof import('./components/icons/IconCommunities.vue')['default']
+    IconHellp: typeof import('./components/icons/IconHelp.vue')['default']
+    IconHelp: typeof import('./components/icons/IconHelp.vue')['default']
+    IconLabel: typeof import('./components/icons/IconLabel.vue')['default']
     IconMen: typeof import('./components/icons/IconMen.vue')['default']
     IconNewChat: typeof import('./components/icons/IconNewChat.vue')['default']
     IconPlus: typeof import('./components/icons/IconPlus.vue')['default']
+    IconQuick: typeof import('./components/icons/IconQuick.vue')['default']
     IconStatus: typeof import('./components/icons/IconStatus.vue')['default']
     IconTools: typeof import('./components/icons/IconTools.vue')['default']
     Logo: typeof import('./components/app/AppLogo.vue')['default']

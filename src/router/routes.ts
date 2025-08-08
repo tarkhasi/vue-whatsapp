@@ -7,7 +7,7 @@ const routes: any = [
       {
         path: '',
         name: 'Panel',
-        component: () => import('@/pages/panel/index.vue'),
+        component: () => import('@/pages/index.vue'),
       },
     ]
   }

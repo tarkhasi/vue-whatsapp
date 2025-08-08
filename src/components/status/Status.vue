@@ -1,12 +1,15 @@
 <script setup lang="ts">
 
+import StatusContent from "@/components/status/StatusContent.vue";
+import StatusNav from "@/components/status/StatusNav.vue";
 </script>
 
 <template>
-  <v-main>
-    <h3>Status</h3>
+  <!-- Nav -->
+  <status-nav/>
 
-  </v-main>
+  <!-- Main -->
+    <status-content/>
 </template>
 
 <style scoped>

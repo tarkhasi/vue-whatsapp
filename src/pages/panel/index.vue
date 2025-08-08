@@ -1,15 +1,20 @@
- <script lang="ts" setup>
-
-import {useAppStore} from "@/stores/app.ts";
-import Chats from "@/components/chats/Chats.vue";
+<script lang="ts" setup>
+import {useAppStore} from "@/stores/app.store.ts";
 import {Page} from "@/models/enums/page.enum.ts";
-import Status from "@/components/status/Status.vue";
+import {defineAsyncComponent, type DefineComponent} from "vue";
 
 const app = useAppStore();
 
+const pagesMap: any = {
+  [Page.chats]: defineAsyncComponent(() => import("@/components/chats/Chats.vue")),
+  [Page.status]: defineAsyncComponent(() => import("@/components/status/Status.vue")),
+  [Page.channels]: defineAsyncComponent(() => import("@/components/channels/Channels.vue")),
+  [Page.communities]: defineAsyncComponent(() => import("@/components/communities/Communities.vue")),
+};
 </script>
 
 <template>
-  <chats v-if="app.page === Page.chats"/>
-  <status v-else-if="app.page === Page.status"/>
+  <Suspense>
+    <component :is="pagesMap[app.page]" :key="app.page" />
+  </Suspense>
 </template>

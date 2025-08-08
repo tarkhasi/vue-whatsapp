@@ -12,7 +12,9 @@ const replaces: any = {
 
 const string = computed(() => {
   let result = props.data;
-  Object.keys(replaces).forEach((key: string) => result = result.replace(key, replaces[key]))
+  Object.keys(replaces).forEach((key: string) => {
+    return result = result.replaceAll(key, replaces[key]);
+  })
   return result;
 })
 </script>

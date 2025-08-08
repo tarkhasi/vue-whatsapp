@@ -13,7 +13,7 @@ defineProps({
     <v-hover v-slot="{ isHovering, props }">
       <div
         v-if="data"
-        :class="['d-flex pa-3 rounded-12 pointer',(data.active || isHovering?'bg-background-light':null)]"
+        :class="['d-flex pa-3  rounded-12 pointer',(data.active || isHovering?'bg-background-light':null)]"
         v-bind="props"
       >
         <div class="pr-3">
@@ -32,7 +32,9 @@ defineProps({
             <!--  Name and Label          -->
             <div>
               <span class="font-size-16 ">{{ data.name }}&nbsp;</span>
-              <v-icon v-if="data.label?.color" size="18" :color="data.label?.color">mdi-label</v-icon>
+              <v-icon v-if="data.label?.color" size="18" :color="data.label?.color">
+                {{ !data.label?.multi ? 'mdi-label' : 'mdi-label-multiple'}}
+              </v-icon>
             </div>
 
             <!--  Date          -->
@@ -47,16 +49,25 @@ defineProps({
             <div class="d-flex w-100 align-center">
 
               <!--   Seen           -->
-              <div v-if="data.last_message?.user_created == 'me'" class="pr-1">
+              <div v-if="data.last_message?.user_created == 'current_user'" class="pr-1">
                 <v-icon v-if="data.last_message?.status === 'seen'" color="primary" size="18">mdi-check-all</v-icon>
-                <v-icon v-else-if="data.last_message?.status === 'waiting_delivery'" size="18" class="opacity-60">mdi-check</v-icon>
+                <v-icon v-else-if="data.last_message?.status === 'waiting_delivery'" size="18" class="opacity-60">
+                  mdi-check
+                </v-icon>
                 <v-icon v-else size="18">mdi-check-all</v-icon>
               </div>
+
+              <!--   Deleted           -->
+              <div v-if="data.last_message?.status === 'deleted'" class="pr-1">
+                <v-icon  color="grey-darken-2"  size="18">mdi-cancel</v-icon>
+              </div>
+
+
 
               <!--  Text            -->
               <v-sheet
                 width="100%"
-                class="text-left text-truncate bg-transparent w-100 font-size-14 text-grey-darken-1"
+                class="text-left mt-1 text-truncate bg-transparent w-100 font-size-14 text-grey-darken-1"
                 :title="data.last_message?.text"
               >
                 <text-with-emoji :data="data.last_message?.text"/>

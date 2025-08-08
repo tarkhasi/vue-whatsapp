@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import chatsData from "@/data/chats.data.ts";
+import StatusItem from "@/components/status/StatusItem.vue";
+import statusData from "@/data/status.data.ts";
 
-const list = chatsData;
+const list = statusData;
 </script>
 
 <template>
   <v-list>
-    <chats-item
+    <status-item
       v-for="(item, key) in list"
       :key="'status-list-item-'+key"
       :data="item"

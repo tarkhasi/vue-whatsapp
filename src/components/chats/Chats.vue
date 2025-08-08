@@ -1,5 +1,6 @@
 <script setup lang="ts">
 
+import ChatsContent from "@/components/chats/ChatsContent.vue";
 </script>
 
 <template>
@@ -7,9 +8,8 @@
   <chats-nav/>
 
   <!-- Chats Main -->
-  <v-main>
-    <chats-default/>
-  </v-main>
+
+    <chats-content/>
 </template>
 
 <style scoped>

@@ -10,6 +10,7 @@ export default {
       'background-blue-light': '#f8f9fa',
       'background-light': '#f6f5f4',
       'background-light-2': '#F7F5F3',
+      'background-dark-1': '#d5d5d5',
       'background-blue-dark': '#5d7082',
       'bronze-light': '#DCA66F',
       'silver-light': '#f8f9fa',

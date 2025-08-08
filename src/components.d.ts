@@ -27,6 +27,7 @@ declare module 'vue' {
     Communities: typeof import('./components/communities/Communities.vue')['default']
     CommunitiesContent: typeof import('./components/communities/CommunitiesContent.vue')['default']
     CommunitiesNav: typeof import('./components/communities/CommunitiesNav.vue')['default']
+    Footter: typeof import('./components/app/AppFooter.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     IconAd: typeof import('./components/icons/IconAd.vue')['default']
     IconAD: typeof import('./components/icons/IconAD.vue')['default']
@@ -38,7 +39,7 @@ declare module 'vue' {
     IconPlus: typeof import('./components/icons/IconPlus.vue')['default']
     IconStatus: typeof import('./components/icons/IconStatus.vue')['default']
     IconTools: typeof import('./components/icons/IconTools.vue')['default']
-    Logo: typeof import('./components/app/Logo.vue')['default']
+    Logo: typeof import('./components/app/AppLogo.vue')['default']
     NewChat: typeof import('./components/icons/NewChat.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
@@ -49,5 +50,8 @@ declare module 'vue' {
     StatusNav: typeof import('./components/status/StatusNav.vue')['default']
     Text: typeof import('./components/app/Text.vue')['default']
     TextWithEmoji: typeof import('./components/app/TextWithEmoji.vue')['default']
+    Tools: typeof import('./components/tools/Tools.vue')['default']
+    ToolsContent: typeof import('./components/tools/ToolsContent.vue')['default']
+    ToolsNav: typeof import('./components/tools/ToolsNav.vue')['default']
   }
 }

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 import IconNewChat from "@/components/icons/IconNewChat.vue";
-import Logo from "@/components/app/Logo.vue";
+import Logo from "@/components/app/AppLogo.vue";
 import ChatsList from "@/components/chats/ChatsList.vue";
 </script>
 

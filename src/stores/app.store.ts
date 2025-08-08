@@ -3,9 +3,8 @@ import {defineStore} from 'pinia'
 import {Page} from "@/models/enums/page.enum.ts";
 
 export const useAppStore = defineStore('app', {
-  state: (): { page: Page } => ({
-    //todo change to chats,
-    page: Page.tools,
+  state: (): { page: Page } => ({ 
+    page: Page.chats,
   }),
   actions: {
     setPage(value: Page | undefined) {

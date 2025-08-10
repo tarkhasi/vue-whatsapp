@@ -2,7 +2,7 @@
   "name": "vue-whatsapp",
   "private": true,
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "deploy": "npx gh-pages -d dist",

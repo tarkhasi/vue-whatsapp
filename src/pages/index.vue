@@ -2,6 +2,7 @@
 import {useAppStore} from "@/stores/app.store.ts";
 import {Page} from "@/models/enums/page.enum.ts";
 import {defineAsyncComponent} from "vue";
+import AdvertiseDialog from "@/components/advertise/AdvertiseDialog.vue";
 
 const app = useAppStore();
 
@@ -11,6 +12,9 @@ const pagesMap: any = {
   [Page.channels]: defineAsyncComponent(() => import("@/components/channels/Channels.vue")),
   [Page.communities]: defineAsyncComponent(() => import("@/components/communities/Communities.vue")),
   [Page.tools]: defineAsyncComponent(() => import("@/components/tools/Tools.vue")),
+  // [Page.advertiseOnFacebook]: with dialog.
+  [Page.settings]: defineAsyncComponent(() => import("@/components/settings/Settings.vue")),
+  [Page.profile]: defineAsyncComponent(() => import("@/components/account/Profile.vue")),
 };
 </script>
 
@@ -18,4 +22,6 @@ const pagesMap: any = {
   <Suspense>
     <component :is="pagesMap[app.page]" :key="app.page"/>
   </Suspense>
+
+  <advertise-dialog/>
 </template>

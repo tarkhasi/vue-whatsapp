@@ -8,8 +8,7 @@ import ChatsContent from "@/components/chats/ChatsContent.vue";
   <chats-nav/>
 
   <!-- Chats Main -->
-
-    <chats-content/>
+  <chats-content/>
 </template>
 
 <style scoped>

@@ -1,4 +1,4 @@
-const base_path = import.meta.env.BASE_URL;
+import {url} from "@/tools/utils.ts";
 
 const chats: any = [
   {
@@ -11,7 +11,7 @@ const chats: any = [
       status: 'seen',
     },
     sent_at: '12:36',
-    image: base_path + 'avatars/me.JPG',
+    image: url('avatars/me.JPG'),
     pined: true,
     active: true,
     label: null,
@@ -27,7 +27,7 @@ const chats: any = [
     },
     new_messages_count: 1,
     sent_at: '12:36',
-    image: base_path + 'avatars/men-1.webp',
+    image: url('avatars/men-1.webp'),
     pined: false,
     label: {
       color: 'green',
@@ -44,7 +44,7 @@ const chats: any = [
       status: 'new',
     },
     sent_at: '12:36',
-    image: base_path + 'avatars/men-2.jfif',
+    image: url('avatars/men-2.jfif'),
     pined: false,
     label: {
       color: '',

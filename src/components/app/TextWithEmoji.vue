@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import {url} from "@/tools/utils.ts";
+
 const props = defineProps({
   data: {
     type: String,
@@ -7,7 +9,7 @@ const props = defineProps({
 })
 
 const replaces: any = {
-  '♥': '<img src="/emoji/heart.png" width="18" height="17">',
+  '♥': `<img src="${url('emoji/heart.png')}" width="18" height="17">`,
 }
 
 const string = computed(() => {

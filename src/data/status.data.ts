@@ -1,10 +1,11 @@
-const base_path = import.meta.env.BASE_URL;
+import {url} from "@/tools/utils.ts";
+
 
 const chats: any = [
   {
     id: '1',
     name: 'My status',
-    image: base_path + 'avatars/me.JPG',
+    image: url('avatars/me.JPG'),
     user: 'current_user',
   },
 ]

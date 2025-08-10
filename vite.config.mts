@@ -11,8 +11,9 @@ import Vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 // Utilities
 import { defineConfig } from 'vite'
 import { fileURLToPath, URL } from 'node:url'
+import 'dotenv/config'
 
-const basePath = '/vue-whatsapp/'
+const basePath = process.env.BASE_PATH
 console.error(basePath);
 
 // https://vitejs.dev/config/

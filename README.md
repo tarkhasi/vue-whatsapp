@@ -17,7 +17,7 @@ to develop and build the project.
 
 ## 🖼️ Preview Image
 
-![UI Preview](/screenshots/preview.JPG)
+![UI Preview](/screenshots/preview-1.JPG)
 <p float="left">
   <img src="/screenshots/screenshot-1.JPG" width="120" alt="Vue WhatsApp Free" />
   <img src="/screenshots/screenshot-2.JPG" width="120" alt="Vue WhatsApp Free" />

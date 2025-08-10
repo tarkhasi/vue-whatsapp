@@ -2,11 +2,11 @@
   "name": "vue-whatsapp",
   "private": true,
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "scripts": {
     "dev": "vite",
     "deploy": "npx gh-pages -d dist",
-    "build": "run-p type-check \"build-only {@}\" -- && npm run deploy",
+    "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",

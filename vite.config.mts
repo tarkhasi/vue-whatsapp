@@ -12,9 +12,13 @@ import Vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 import { defineConfig } from 'vite'
 import { fileURLToPath, URL } from 'node:url'
 
+const basePath = '/vue-whatsapp/'
+console.error(basePath);
+
 // https://vitejs.dev/config/
 export default defineConfig({
 
+  base: process.env.NODE_ENV === 'production'  ?   basePath  : '/',
   plugins: [
     VueRouter({
       dts: 'src/typed-router.d.ts',
@@ -48,15 +52,7 @@ export default defineConfig({
       },
     }),
     Fonts({
-      fontsource: {
-        families: [
-          {
-            name: 'Roboto',
-            weights: [100, 300, 400, 500, 700, 900],
-            styles: ['normal', 'italic'],
-          },
-        ],
-      },
+
     }),
   ],
   optimizeDeps: {

@@ -8,15 +8,23 @@ A lightweight, modern **Web WhatsApp** UI built with **Vue 3** and **Vuetify 3**
 
 ## 🔗 Links
 
-* **Live demo:** `https://tarkhasi.github.io/vue-whatsapp/`
-* **Author / Portfolio:** `https://tarkhasi.ir`
+* **Live demo:** [Demo](https://tarkhasi.github.io/vue-whatsapp/) 
+* **Author / Portfolio:** [T A R K H A S I](https://tarkhasi.ir)
  
 ---
 
 ## 🖼️ Preview Image
 
-![UI Preview](/screenshots/preview.png)
-
+![UI Preview](/screenshots/preview.JPG)
+<p float="left">
+  <img src="/screenshots/screenshot-1.jpg" width="120" />
+  <img src="/screenshots/screenshot-2.jpg" width="120" />
+  <img src="/screenshots/screenshot-3.jpg" width="120" />
+  <img src="/screenshots/screenshot-4.jpg" width="120" />
+  <img src="/screenshots/screenshot-5.jpg" width="120" />
+  <img src="/screenshots/screenshot-6.jpg" width="120" />
+  <img src="/screenshots/screenshot-7.jpg" width="120" />
+</p>
 **Note:** Put the preview image at `/screenshots/preview.png` or replace the path above with an absolute image URL.
 
 ---
@@ -101,5 +109,5 @@ For questions or custom work: `REPLACE_WITH_YOUR_EMAIL_OR_SITE_CONTACT`
 
 ## GitHub Topics (suggested)
 
-`vue` `vue3` `vuetify` `chat-ui` `whatsapp-ui` `rtl` `vite` `pinia` `free`
+`vue` `vue3` `vuetify` `chat-ui` `whatsapp-ui` `rtl` `vite` `pinia` `free` `12h`
  

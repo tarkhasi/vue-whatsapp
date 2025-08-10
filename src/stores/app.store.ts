@@ -7,8 +7,7 @@ export const useAppStore = defineStore('app', {
     page: Page,
     dialog_advertise: boolean,
   } => ({
-    // todo
-    page: Page.profile,
+    page: Page.chats,
     dialog_advertise: false,
   }),
   actions: {

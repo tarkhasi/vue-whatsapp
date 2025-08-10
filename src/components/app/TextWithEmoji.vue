@@ -11,7 +11,7 @@ const replaces: any = {
 }
 
 const string = computed(() => {
-  let result = props.data;
+  let result: any = props.data;
   Object.keys(replaces).forEach((key: string) => {
     return result = result.replaceAll(key, replaces[key]);
   })

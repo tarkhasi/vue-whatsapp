@@ -93,7 +93,7 @@ const settingsItems = [
       </div>
 
       <v-list>
-        <template v-for="item in settingsItems" :key="item.value">
+        <template v-for="(item, index) in settingsItems" :key="'settings-nav-'+index">
           <v-list-item
             :subtitle="item.subtitle"
             :title="item.title"

@@ -10,7 +10,7 @@ import IconLabel from "@/components/icons/IconLabel.vue";
 
 const {t} = useI18n();
 
-const settingsItems = [
+const items = [
   {
     type: 'subheader',
     title: t('BusinessTools'),
@@ -77,7 +77,7 @@ const settingsItems = [
 
     <v-list
     >
-      <template v-for="item in settingsItems" :key="item.value">
+      <template v-for="(item, index) in items" :key="'tools-nav-'+index">
         <v-divider v-if="item.type === 'divider'"/>
 
         <v-list-subheader v-else-if="item.type === 'subheader'" class="text-success">
@@ -85,11 +85,11 @@ const settingsItems = [
         </v-list-subheader>
 
         <v-list-item
-          v-else
-          :subtitle="item.subtitle"
-          :title="item.title"
-          class="py-4 px-6"
-          @click="()=>{}"
+            v-else
+            :subtitle="item.subtitle"
+            :title="item.title"
+            class="py-4 px-6"
+            @click="()=>{}"
         >
           <template #prepend>
             <component class="mr-6 opacity-60" :is="item.icon"/>

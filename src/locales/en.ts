@@ -1,6 +1,18 @@
 
 export default {
   'AppName':'WhatsApp Bro!',
+  'ChangeProfilePhoto.':'Change profile photo',
+  'UnableToLoadCatalog':'We were unable to load your catalog.',
+  'Products':'Products',
+  'Friday':'Friday',
+  'Sunday':'Sunday',
+  'Saturday':'Saturday',
+  'Thursday':'Thursday',
+  'Wednesday':'Wednesday',
+  'Tuesday':'Tuesday',
+  'Monday':'Monday',
+  'BusinessAddress':'Business address',
+  'ThisNameWillBeVisible':'This name will be visible to your WhatsApp customers and can be edited from the app on your mobile device.',
   'AccountSubtitle':'Security notifications, account info',
   'Privacy':'Privacy',
   'PrivacySubtitle':'Blocked contacts, disappearing messages',

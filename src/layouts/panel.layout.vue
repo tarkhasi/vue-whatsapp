@@ -17,6 +17,7 @@ const menu = [
     page: Page.chats,
     icon: IconChats,
     tooltip: t('Chats'),
+    badge: 1,
   },
   {
     page: Page.status,
@@ -53,32 +54,35 @@ const menu = [
   <!-- Nav -->
   <v-navigation-drawer
     color="background-light-2"
-    class="text-center"
+    class="text-center scroll-light"
     width="64"
   >
     <!--  Top  -->
     <template v-for="(item, index) in menu">
-      <v-btn
-        :class="{'mb-1':true, 'mt-3':index === 0, 'opacity-60': !app.is(item.page)}"
-        :active="app.is(item.page)"
-        icon
-        flat
-        color="transparent"
-        size="40"
-        @click="app.setPage(item.page)"
-      >
-        <component :is="item.icon" :active="app.is(item.page)"/>
-
-
-        <v-tooltip
-          v-if="item.tooltip"
-          activator="parent"
-          location="start"
-          content-class="rounded-20"
+      <v-badge color="success" offset-y="20" :content="item.badge" :model-value="!!item.badge">
+        <v-btn
+          :class="{'mb-1':true, 'mt-3':index === 0, 'opacity-60': !app.is(item.page)}"
+          :active="app.is(item.page)"
+          icon
+          flat
+          color="transparent"
+          size="40"
+          @click="app.setPage(item.page)"
         >
-          {{item.tooltip}}
-        </v-tooltip>
-      </v-btn>
+          <component :is="item.icon" :active="app.is(item.page)"/>
+
+
+          <v-tooltip
+            v-if="item.tooltip"
+            activator="parent"
+            location="start"
+            content-class="rounded-20"
+          >
+            {{ item.tooltip }}
+          </v-tooltip>
+        </v-btn>
+      </v-badge>
+
       <v-divider v-if="item.divider" class="mx-3 my-2"></v-divider>
     </template>
 
@@ -103,7 +107,7 @@ const menu = [
           location="start"
           content-class="rounded-20"
         >
-          {{$t('Settings')}}
+          {{ $t('Settings') }}
         </v-tooltip>
       </v-btn>
 
@@ -130,7 +134,7 @@ const menu = [
           location="start"
           content-class="rounded-20"
         >
-          {{$t('Profile')}}
+          {{ $t('Profile') }}
         </v-tooltip>
       </v-btn>
 

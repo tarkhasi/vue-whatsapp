@@ -189,3 +189,27 @@ button{
     cursor: pointer;
     text-decoration: underline !important;
 }
+
+
+.scroll-light {
+    overflow: auto; /* یا scroll */
+}
+
+
+.scroll-light *::-webkit-scrollbar-thumb {
+    background: transparent; /* پیش‌فرض مخفی */
+    border-radius: 3px;
+}
+
+.scroll-light *:hover::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.scroll-light *::-webkit-scrollbar{
+    width: 6px !important;
+    height: 6px !important;
+}
+.scroll-light *::-webkit-scrollbar-thumb {
+    background-color: transparent !important;
+    border-radius: 20px;
+}

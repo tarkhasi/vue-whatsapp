@@ -7,8 +7,9 @@ export default {
       'success': '#1DAA61', // #FFCDD2
       'contrast': '#212121',
       'contrast-dark': '#000000',
+      'background': '#ffffff',
       'background-white': '#ffffff',
-      'background-blue-light': '#f8f9fa',
+      'background-blue-light': '#eaf2f5',
       'background-light': '#f6f5f4',
       'background-light-2': '#F7F5F3',
       'background-dark-1': '#d5d5d5',

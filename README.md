@@ -110,7 +110,7 @@ Recommended: **MIT**. Add a `LICENSE` file if you choose to use a different lice
 
 ## 📬 Contact
 
-For questions or custom work: `REPLACE_WITH_YOUR_EMAIL_OR_SITE_CONTACT`
+For questions or custom work: `tarkhasi.sajjad@gmail.com`
 
 ---
 

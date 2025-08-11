@@ -50,6 +50,7 @@ const menu = [
 
 
 <template>
+  <camera/>
 
   <!-- Nav -->
   <v-navigation-drawer

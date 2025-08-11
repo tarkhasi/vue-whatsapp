@@ -15,7 +15,7 @@ This repository includes the main UI pages, style configuration, and build scrip
 
 ## 🖼️ Preview Image
 
-![UI Preview](/screenshots/preview-2.JPG)
+![UI Preview](/screenshots/preview-3.JPG)
 <p float="left">
   <img src="/screenshots/screenshot-1.JPG" width="120" alt="Vue WhatsApp Free" />
   <img src="/screenshots/screenshot-2.JPG" width="120" alt="Vue WhatsApp Free" />

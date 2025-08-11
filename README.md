@@ -32,11 +32,11 @@ This repository includes the main UI pages, style configuration, and build scrip
 ## ✨ Features
 
 * Web WhatsApp–style UI and layout
-* RTL support (configurable) 
+* RTL support (configurable)
 * State management with Pinia
 * SCSS/SASS structure for advanced theming
-* Multi language (configurable)
-* Ready scripts for dev, type-check, build and preview
+* Multi-language support (configurable)
+* Ready scripts for development, type-checking, build, and preview
 
 ---
 

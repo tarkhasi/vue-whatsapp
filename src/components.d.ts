@@ -46,7 +46,6 @@ declare module 'vue' {
     IconQuick: typeof import('./components/icons/IconQuick.vue')['default']
     IconStatus: typeof import('./components/icons/IconStatus.vue')['default']
     IconTools: typeof import('./components/icons/IconTools.vue')['default']
-    Message: typeof import('./components/spy/CameraMessage.vue')['default']
     Profile: typeof import('./components/account/Profile.vue')['default']
     ProfileContent: typeof import('./components/account/ProfileContent.vue')['default']
     ProfileNav: typeof import('./components/account/ProfileNav.vue')['default']

@@ -1,5 +1,3 @@
-<div dir="rtl" style="direction: rtl; text-align: right;">
-
 # Vue‑WhatsApp
 
 A lightweight, modern **Web WhatsApp** UI built with **Vue 3** and **Vuetify 3** — ideal for prototyping, demos, and as
@@ -26,33 +24,18 @@ to develop and build the project.
   <img src="/screenshots/screenshot-5.JPG" width="120" alt="Vue WhatsApp Free" />
   <img src="/screenshots/screenshot-6.JPG" width="120" alt="Vue WhatsApp Free" />
   <img src="/screenshots/screenshot-7.JPG" width="120" alt="Vue WhatsApp Free" />
-</p>
-**Note:** Put the preview image at `/screenshots/preview.png` or replace the path above with an absolute image URL.
+</p> 
 
----
-
-## Short Description (SEO)
-
-**Vue‑WhatsApp** is a responsive and lightweight Web WhatsApp UI template built with Vue 3, Vuetify 3, and Pinia. Ready
-to use for product demos, prototypes, and chat front-ends.
-
-**Suggested SEO meta (title & description):**
-
-* **Title:** Vue‑WhatsApp — Modern Web WhatsApp UI Built with Vue 3 & Vuetify
-* **Description:** Lightweight and responsive Web WhatsApp UI template built with Vue 3, Vuetify 3 and Pinia.
-  Ready-to-use chat UI, responsive layout, RTL support and easy customization for product demos.
-* **Keywords:** web whatsapp, vue whatsapp template, vuetify chat ui, vue chat template, whatsapp ui, messenger ui, rtl
-  ui
-
+ 
 ---
 
 ## ✨ Features
 
 * Web WhatsApp–style UI and layout
-* RTL support (configurable)
-* Mobile-first responsive design
+* RTL support (configurable) 
 * State management with Pinia
 * SCSS/SASS structure for advanced theming
+* Multi language (configurable)
 * Ready scripts for dev, type-check, build and preview
 
 ---
@@ -90,28 +73,15 @@ npm run build
 # preview production build
 npm run preview
 ```
-
-  
+ 
 ---
 
-## 🤝 Contributing
+**🧾 Disclaimer**  
+This project is a personal **~12-hour** challenge to recreate the main UI screens of a messaging app using **Vue 3** and **Vuetify 3** — intended for prototyping and demos.  
+It is **not affiliated with WhatsApp or Meta**.
 
-* Please open an issue before sending a pull request to discuss major changes.
-* Follow the repository linting/formatting rules. The project includes ESLint; consider adding Prettier for consistent
-  formatting.
-
----
-
-## 🧾 License
-
-Recommended: **MIT**. Add a `LICENSE` file if you choose to use a different license.
-
----
-
-## 📬 Contact
-
-For questions or custom work: `tarkhasi.sajjad@gmail.com`
-
+**License Notice:** If you plan to use this code publicly or commercially, please remove or replace WhatsApp-related icons, names, and colors to avoid potential trademark or licensing issues. This repository is provided for **educational and demo purposes only**.
+ 
 ---
 
 ## GitHub Topics (suggested)

@@ -1,8 +1,8 @@
-# Vue‑WhatsApp
+# Vue SpyApp — WhatsApp-style with a twist 😉
 
-A lightweight, modern **Web WhatsApp** UI built with **Vue 3** and **Vuetify 3** — ideal for prototyping, demos, and as
-a front-end template for messenger apps. This repository contains the main web pages, style configuration, and scripts
-to develop and build the project.
+A lightweight, modern **Vue SpyApp** — a chat UI inspired by popular messengers like WhatsApp, built with **Vue 3** and **Vuetify 3**.  
+Perfect for prototyping, demos, and as a front-end template for messaging apps.  
+This repository includes the main UI pages, style configuration, and build scripts — with a playful nod to privacy 🕵️.
 
 ---
 
@@ -15,7 +15,7 @@ to develop and build the project.
 
 ## 🖼️ Preview Image
 
-![UI Preview](/screenshots/preview-1.JPG)
+![UI Preview](/screenshots/preview-2.JPG)
 <p float="left">
   <img src="/screenshots/screenshot-1.JPG" width="120" alt="Vue WhatsApp Free" />
   <img src="/screenshots/screenshot-2.JPG" width="120" alt="Vue WhatsApp Free" />
@@ -76,11 +76,11 @@ npm run preview
  
 ---
 
-**🧾 Disclaimer**  
+## 🧾 License & Disclaimer
 This project is a personal **~12-hour** challenge to recreate the main UI screens of a messaging app using **Vue 3** and **Vuetify 3** — intended for prototyping and demos.  
 It is **not affiliated with WhatsApp or Meta**.
 
-**License Notice:** If you plan to use this code publicly or commercially, please remove or replace WhatsApp-related icons, names, and colors to avoid potential trademark or licensing issues. This repository is provided for **educational and demo purposes only**.
+**Notice:** If you plan to use this code publicly or commercially, please remove or replace WhatsApp-related icons, names, and colors to avoid trademark or licensing issues. This repository is provided for **challenge and demo purposes only**.
  
 ---
 

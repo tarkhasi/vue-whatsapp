@@ -1,8 +1,6 @@
 # Vue SpyApp — WhatsApp-style with a twist 😉
 
-A lightweight, modern **Vue SpyApp** — a chat UI inspired by popular messengers like WhatsApp, built with **Vue 3** and **Vuetify 3**.  
-Perfect for prototyping, demos, and as a front-end template for messaging apps.  
-This repository includes the main UI pages, style configuration, and build scripts — with a playful nod to privacy 🕵️.
+Vue SpyApp is a modern, lightweight chat UI template inspired by WhatsApp, built with Vue 3, Vuetify 3, and Pinia — perfect for chat apps, demos, and prototypes 🕵️‍♂️.
 
 ---
 
